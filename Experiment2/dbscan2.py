@@ -111,7 +111,7 @@ def show_dataset(dataset):
     print('Dataset done')
     plt.show()
 
-def plotRes( clusterRes):
+def plotRes(clusterRes):
 
     scatterColors = ['black', 'blue', 'green', 'yellow', 'red', 'purple', 'orange', 'brown','m', 'fuchsia', 'crimson', 'dodgerblue', 'lime', 'coral', 'peru', 'khaki','black', 'blue', 'green', 'yellow', 'red', 'purple', 'orange', 'brown','m', 'fuchsia', 'crimson', 'dodgerblue', 'lime', 'coral', 'peru', 'khaki','black', 'blue', 'green', 'yellow', 'red', 'purple', 'orange', 'brown','m', 'fuchsia', 'crimson', 'dodgerblue', 'lime', 'coral', 'peru', 'khaki']
     for key in clusterRes.keys():
